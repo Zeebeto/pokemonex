@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Gruppe2 - R&P&S</title>
+</head>
+<body>
+    <div id="img">
+    
+        <a href="/index.html"><button id="play">Play</button></a>
+
+
+        <div id="navnoppgave">
+            <img src="pokeball_closed.png" onclick="pokeball()">
+        </div>
+        
+    
+    <script>
+        
+        function pokeball() {
+            document.getElementById('navnoppgave').innerHTML = `
+                                                                <p><b>TEAM 2 REPRESENTING</b><br>
+                                                                      A pokemon game<br>
+                                                                      Comming to cinemas near you #2020<br>
+                                                                      Erik, Stian, Jonas, Henrik</p>
+                                                                      <img src="pokeball_open.png"/>`
+            
+        }
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

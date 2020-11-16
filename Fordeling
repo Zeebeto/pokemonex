@@ -1,0 +1,43 @@
+#Idè
+3 bilder og trykke på (rock, paper, scissor)
+Når vi trykker på et bilde, vil bildene forsvinne.
+UserChoice vil vises på venstre side, mens computerChoice vil vises på høyre side.
+Tekst over som forteller hvem som vant.
+Scoreboard?
+
+
+
+#ChoiceList
+0 Stein
+1 Saks
+2 Papir
+
+#TO-DO-LIST:
+1. Funksjon som lager computerChoice (controller)
+2. Funksjon som viser html (view)
+3. Funksjon som sjekker winner (comp vs user) (controller)
+4. Funksjon som henter userChoice (controller)
+5. Funksjon som spiller av lydeffekter ved vinn/tap/uavgjort (controller)
+6. Styling
+7. Variabler
+8. Finne bilder
+
+
+#Henrik
+getComputerChoice()
+
+#Jonas
+getWinner()
+
+#Stian
+getuserchoice()
+
+#Erik
+Styling
+
+
+REGLER:
+
+Blastoise slår Charizard
+Charizard slår Venesaur
+Venesaur slår Blastoise
